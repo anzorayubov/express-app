@@ -1,5 +1,6 @@
 # ExpressApp
-
+Приложение для отправления заявок в транспортную компанию, от количества заявок зависит тип отправляемого автобуса( большой или маленький )
+Компоненты - Angular Material
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 ## Development server
