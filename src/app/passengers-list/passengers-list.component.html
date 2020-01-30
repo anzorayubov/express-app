@@ -1,0 +1,165 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h6>SVO-DME</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of svoDme">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+
+    <div class="col">
+      <h6>DME-SVO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of dmeSvo">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>EGR-SVO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of egrSvo">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>SVO-EGR</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of svoEgr">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>KHOVRINO-SVO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of khvrSvo">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>SVO-KHOVRINO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of svoKhvr">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>VKO-DME</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of vkoDme">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>DME-VKO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of dmeVko">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>VKO-EGR</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of vkoEgr">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col">
+      <h6>EGR-VKO</h6>
+      <br>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let item of egrVko">
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{item.timeSelect}}</mat-panel-title>
+            <mat-panel-description>{{item.description}}</mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>{{item.name}}</p>
+          <p>Табельный: {{item.tabel}}</p>
+          <p>Дата заявки: {{item.date}}</p>
+          <button (click)="remove()">Удалить</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+</div>

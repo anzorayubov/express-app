@@ -1,0 +1,38 @@
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  margin-top: 25px;
+}
+.select_time {
+  text-align: center;
+}
+.directionSelect {
+  display: flex;
+  justify-content: center;
+}
+.mat-button-toggle.toggle {
+  width: 135px;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+.mat-icon {
+  width: 35px!important;
+  height: 35px!important;
+  svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+::ng-deep .mat-icon-button {
+  height:48px !important;
+  width:48px !important;
+}

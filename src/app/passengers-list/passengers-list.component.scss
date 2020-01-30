@@ -1,0 +1,48 @@
+h6, p {
+  margin: 0;
+}
+.container {
+  margin-top: 0;
+  .row>:last-child {
+    border: 1px solid lightgrey;
+  }
+  .col {
+    border: 1px solid lightgrey;
+    border-right: none;
+    min-width: 100px;
+    max-width: 120px;
+    text-align: center;
+    padding: 0;
+    min-height: 100px;
+  }
+  #header {
+    height: 30px;
+  }
+}
+::ng-deep.mat-accordion {
+  .mat-expansion-panel {
+    padding: 0;
+    .mat-expansion-panel-header {
+      padding: 3px;
+      font-size: 14px;
+      height: 30px;
+    }
+    p {
+      font-size: 12px;
+    }
+    button {
+      margin: 4px 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .mat-expansion-panel-body {
+    padding: 0;
+    p {
+      text-align: left;
+      margin-left: 2px;
+    }
+  }
+}
