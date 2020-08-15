@@ -3,7 +3,7 @@
 Компоненты - Angular Material;
 <br> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-![Output sample](https://github.com/ajasmin/camstudio-mousedown-highlight/raw/master/android_vid_test.gif)
+![til](src/assets/gif/expressApp.gif)
 
 ## Development server
 
