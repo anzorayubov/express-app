@@ -3,7 +3,7 @@
 Компоненты - Angular Material;
 <br> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-![til](src/assets/gif/expressApp.gif)
+![til](src/assets/gif/expressGIF.gif)
 
 ## Development server
 
